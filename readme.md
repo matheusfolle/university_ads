@@ -8,7 +8,7 @@ Explore the directories to see my progress.
 
 ---
 
-## 🚀 Why this repo exists
+## ⛳️ Why this repo exists
 
 While going through university, I realized that the best way to truly learn was to revisit the assignments — not just to improve the code, but to deepen the concepts behind them.
 
