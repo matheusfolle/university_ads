@@ -23,8 +23,8 @@
 
 #header-content .nav-content .nav-content-logo {
     margin: 20px 15px;
-    min-width: 500px;
-    min-height: 50px;
+    width: 100%;
+    max-width: 500px;
     background-color: #0077B6;
     padding: 20px;
 }
@@ -40,7 +40,8 @@
 
 #header-content .nav-content .nav-content-list {
     margin: 20px 15px;
-    min-width: 500px;
+    width: 100%;
+    max-width: 500px;
     min-height: 50px;
     background-color: #0077B6;
     padding: 10px;
@@ -65,7 +66,7 @@
     text-decoration: none;
 }
 
-#principal-header {
+.principal-header {
     display: flex;
     flex-direction: column;
     background-color: #0096C7;
@@ -73,14 +74,14 @@
     margin: 40px 20px 0px 20px;
 }
 
-#principal-header .principal-title {
+.principal-header .principal-title {
     font-size: 2.2rem;
     color: #fff;
     text-align: center;
     margin-top: 10px;
 }
 
-#principal-header .principal-text {
+.principal-header .principal-text {
     font: normal 400 1.3rem/1.5 'monospace', sans-serif;
     color: #fff;
     text-align: center;
@@ -197,6 +198,13 @@
     font: normal 400 1.3rem/1.5 'monospace', sans-serif;
 }
 
+/* Container de imagens */
+
+.free-content-container {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 #greater-section .free-content-container {
     display: flex;
     gap: 5.5rem;
@@ -204,7 +212,8 @@
 }
 
 #greater-section .free-content-container img {
-    max-width: 243px;
+    width: 100%;
+    max-width: 250px;
 }
 
 /* Section img txt 2 */
@@ -240,20 +249,45 @@
 
 /* Footer */
 
-#footer-4-icons {
-    font-size: 3rem;
+#footer {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    max-width: 98%;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #023E8A;
+    margin: auto;
+    color: #fff;
+}
+
+#footer .footer-4-icons {
+    font-size: 2rem;
     padding: 0.8rem;
     max-width: 98%;
     display: flex;
-    margin: 0 auto 1rem auto;
-    background-color: #023E8A;
-    justify-content: center;
     gap: 1rem;
 }
 
-#footer-4-icons i {
+#footer .footer-4-icons i {
     color: #fff;
 }
+
+#footer h3 {
+    font-weight: 50;
+}
+
+#footer .footer-phrase-1 {
+    margin-left: 2rem;
+}
+
+#footer .footer-phrase-2 {
+    margin-right: 2rem;
+}
+
 
 
 
