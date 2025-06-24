@@ -1,0 +1,22 @@
+PROVA 02
+
+
+1 - abrir no localhost o arquivo "criar-banco3.php";
+2 - quando criado renomear o arquivo "index4.php" para apenas "index.php";
+
+
+LOGIN & HEADER
+[X] - Fazer o login e logout funcionar (usando hash) e salvar em sessao para ter acesso as paginas;
+[X] - Alterar botoes do header conforme status "logado / não logado";
+[X] - Fazer uma forma de deletar o usuario logado ("deletar minha conta");
+
+FORNECEDORES
+[X] - Buscar no banco e listar fornecedores nos cards usando a função cardFornecedor();
+[X] - Fazer o formulário de Adicionar Fornecedores funcionar para poder criar nonovos fornecedores no sistema;
+[X] - Fazer funcionar a edição de fornecedores;
+[X] - Crie uma forma de apagar os fornecedores listados;
+
+SERVIÇOS dos Fornecedores
+[X] - Buscar no banco e listar os servicos de um fornecedor nos cards usando a função cardServicos() e e limitar a duas casas decimais os preços dos servicos;
+
+- Talvez seja necessário arrumar algumas rotas dependendo das suas alterações no código;
