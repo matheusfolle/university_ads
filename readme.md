@@ -1,22 +1,40 @@
-# 🎓 University Projects
+<h1 align="center">university projects 🔭</h1>
 
-This repository contains my refactored university projects, organized by year, semester, and subject.
-
-Each folder reflects my effort to revisit and improve past assignments, focusing on code clarity, structure, and learning.
-
-Explore the directories to see my progress.
+<p align="center"><em>aprendizado contínuo, um projeto de cada vez</em></p>
 
 ---
 
-## ⛳️ Why this repo exists
+### ❍ sobre
 
-While going through university, I realized that the best way to truly learn was to revisit the assignments — not just to improve the code, but to deepen the concepts behind them.
-
-This repository reflects:
-- My **growth** from semester to semester
-- My commitment to writing **better, cleaner code**
-- My willingness to **learn by doing** — again, and again
+⤷ projetos acadêmicos reorganizados e revisitados com propósito  
+⤷ cada pasta representa uma matéria, um semestre, uma etapa  
+⤷ código refeito com foco em clareza, estrutura e evolução
 
 ---
 
-Feel free to explore the folders and follow my learning path – one project at a time.
+### ❍ por que isso existe
+
+porque aprender de verdade é **refazer com consciência**,  
+**rever com intenção**, e transformar obrigação em prática real.
+
+este repositório é um reflexo de:
+
+- 🌱 crescimento semestre a semestre  
+- 📐 compromisso com código limpo  
+- 🔁 aprendizado que se constrói fazendo — de novo, e de novo
+
+---
+
+### ❍ estrutura
+
+📁 `1º ano/1º semestre`  
+📁 `1º ano/2º semestre`  
+📁 `2º ano/...`  
+﹆ (organizado por disciplina e tema)
+
+---
+
+### ❍ siga a jornada
+
+sinta-se à vontade para explorar as pastas  
+e acompanhar o meu processo — simples, mas com intenção.
