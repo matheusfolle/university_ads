@@ -27,9 +27,9 @@ este repositório é um reflexo de:
 
 ### ❍ estrutura
 
-📁 `1º ano/1º semestre`  
-📁 `1º ano/2º semestre`  
-📁 `2º ano/...`  
+📁 `materia/1º semestre`  
+📁 `materia/2º semestre`  
+  
 ﹆ (organizado por disciplina e tema)
 
 ---
