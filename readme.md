@@ -28,8 +28,8 @@ este repositório é um reflexo de:
 
 ### ❍ estrutura
 
-📁 `materia/1º semestre`  
-📁 `materia/2º semestre`  
+📁 `materia/ano/1º semestre`  
+📁 `materia/ano/2º semestre`  
   
 ﹆ (organizado por disciplina e tema)
 
