@@ -1,0 +1,52 @@
+<!-- wwwroot/index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>API de Veículos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>API de Veículos</h1>
+
+  <div class="bloco">
+    <h2>Cadastrar</h2>
+    <form method="post">
+      <input type="text" name="modelo" placeholder="Modelo" required />
+      <input type="text" name="marca" placeholder="Marca" required />
+      <input type="number" name="preco" step="0.01" min="0" placeholder="Preço" required />
+      <input type="text" name="cor" placeholder="Cor" required />
+      <input type="text" name="placa" placeholder="Placa" required />
+      <input type="text" name="chassis" placeholder="Chassis" required />
+      <input type="text" name="status" placeholder="Status" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+  <div id="mensagemCadastro" style="display:none; color: green; margin-top: 10px;">
+<p>Veículo cadastrado com sucesso!</p>
+</div>
+  
+  <div>
+    <h2>Lista de carros cadastrados</h2>
+    <button id="btn-listar">Atualizar lista</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Marca</th>
+          <th>Preço</th>
+          <th>Cor</th>
+          <th>Placa</th>
+          <th>Chassis</th>
+          <th>Status</th>
+          <th class="col-acoes" style="width: 165px">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-veiculos"></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
