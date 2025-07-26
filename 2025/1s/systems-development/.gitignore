@@ -1,0 +1,75 @@
+# Created by https://www.toptal.com/developers/gitignore/api/php
+### PHP ###
+*.log
+*.cache
+*.tmp
+
+# Composer
+/vendor/
+/composer.lock
+
+# Laravel
+.env
+.phpunit.result.cache
+/storage/*.key
+/public/storage
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# Symfony
+/var/
+/.env.local
+.env.local.php
+.env.*.local
+
+# CodeIgniter
+/application/cache/*
+/application/logs/*
+
+# Zend
+/data/
+
+# CakePHP
+/tmp/*
+/logs/*
+/lib/Cake/Console/Templates/skel/tmp/*
+/lib/Cake/Console/Templates/skel/logs/*
+
+# Yii
+/assets/*
+/protected/runtime/*
+/themes/*/views/*/runtime/*
+
+# Magento
+/var/
+app/etc/local.xml
+/media/*
+/sitemap
+/*.log
+/*.tmp
+
+# SilverStripe
+/silverstripe-cache/
+/assets/
+/*.sql
+/.env
+
+# FuelPHP
+/fuel/app/cache/*
+/fuel/app/logs/*
+/fuel/app/tmp/*
+
+# Drupal
+/sites/default/files/
+/sites/default/settings*.php
+
+# WordPress
+wp-config.php
+.htaccess
+license.txt
+readme.html
+
+# End of https://www.toptal.com/developers/gitignore/api/php
